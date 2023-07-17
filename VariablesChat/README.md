@@ -1,6 +1,7 @@
 VariablesChat is a multi-client chat room.
 
-what to do next (in addition to clearing up the code)
+what to do next (in addition to clearing up the code):
+    
     1. create a command mode 
        --> the message starts with '\' , commands like (whoIsHere and quit)
 
