@@ -1,0 +1,5 @@
+IPC using unix socket and datagrams :
+you treat the socket as a file -> create it , read and write into it using different processes
+the file is created upon binding (it doesnt exist before , and if does we remove it so things dont get messy)
+bind the socket to a file where you send and recv like you normally would with ports 
+
