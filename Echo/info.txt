@@ -1,0 +1,53 @@
+general info :
+IP // port // TCP   ----> socket 
+
+
+client socket and a (server socket) 
+
+
+1) how to read and write those sockets ???
+we will be dealing with 2 sockets 
+
+the client side and the server side 
+start with the client 
+
+
+
+**********************************************************************
+echo server ---> reads using a buffered reader from the client
+writes using out to the clients 
+
+echo client ---> writes to the servers socket using out
+reads the reply using a buffered reader
+
+*****************************************************************
+byte stream ->  inputStream or OutputStream
+reads byte by byte
+
+
+char stream -> ends with Reader or writer 
+reads chars 
+
+
+to convert byte -> char use ::: ReadInputStream(byte stream)
+what is a bufferedReader ?
+buffers the input into lines
+
+
+what is a printwriter?
+prints objects (things like a stream of bytes)
+you have to flush the socket OutputStream
+
+**********************************************************************
+
+system.out vs system.err 
+in.java / out.java
+networking
+
+
+******************************************************************************8
+echo
+datagram vs packets
+
+
+
