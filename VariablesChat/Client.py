@@ -23,7 +23,7 @@ def write():
         client_socket.send("{} : {}".format(name, message_to_send).encode("ascii"))
 
 
-host = "0.0.0.0"
+host = "127.0.0.1"
 port = 55555
 
 name = input("Welcome to variables , enter your name : ")
